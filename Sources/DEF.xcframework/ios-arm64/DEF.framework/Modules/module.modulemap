@@ -1,0 +1,11 @@
+framework module DEF {
+  umbrella header "DEF.h"
+
+  export *
+  module * { export * }
+}
+
+module DEF.Swift {
+  header "DEF-Swift.h"
+  requires objc
+}
